@@ -1,0 +1,113 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+   }
+   header h1 {
+    margin: 0;
+   }
+   nav ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   nav ul li {
+    display: inline;
+    margin-right: 10px;
+   }
+   nav ul li a {
+    color: #fff;
+    text-decoration: none;
+   }
+   main {
+    padding: 20px;
+   }
+   #perfil {
+    background-color: #a4eaff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.perfil-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil-foto {
+    width: 30%;
+}
+
+.perfil-foto img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.perfil-info {
+    width: 65%;
+}
+
+.perfil-info h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.perfil-info p {
+    margin: 5px 0;
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #f0f0f0; /* Color de fondo gris */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+ 
+    transform: translateY(20px); /* Mover hacia abajo */
+    transition: opacity 0.5s, transform 0.5s; /* Transición suave */
+}
+
+/* Estilos para los títulos de las secciones */
+
+section h2,
+section h3 {
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilos para los títulos de las subsecciones */
+section h3 {
+    margin-top: 30px; /* Espacio adicional arriba del título */
+}
+
+separador { height: 350px; /* Altura del espacio separador */ }
+
+
+
+}
+/* Estilos para el perfil */
+#perfil {
+    margin-bottom: 50px; /* Margen inferior para evitar que las secciones superpuestas */
+}
+
+/* Estilos para las demás secciones */
+#experiencia,
+#estudios {
+    margin-top: 50px; /* Margen superior para separar las secciones del perfil */
+}
+
+
+
+
+
+
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   }
