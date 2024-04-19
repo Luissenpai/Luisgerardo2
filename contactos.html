@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Mis Proyectos - Portafolio</title>
+ <link rel="stylesheet" href="css/estilos2.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+<script>
+    function enviarFormulario(event) {
+        event.preventDefault(); // Evitar el envío del formulario
+        document.getElementById('formulario').style.display = 'none'; // Ocultar el formulario
+        document.getElementById('mensaje-enviado').style.display = 'block'; // Mostrar el mensaje de agradecimiento
+    }
+</script>
+
+
+</head>
+<body>
+ <header>
+ <h1 class="animate__animated animate__fadeInDown">💻Mi Portafolio💻</h1>
+ <nav>
+ <ul>
+ <li><a href="pag.html">Inicio</a></li>
+ 
+ <li><a href="proyectos.html">Mis Proyectos</a></li>
+ <li><a href="contactos.html">Contáctame</a></li>
+ </ul>
+ </nav>
+ </header>
+ 
+
+
+ <main>
+
+ 
+<div class="imagen-redondeada"></div>
+
+
+ <section class="formulario" id="formulario">
+    <!-- Contenido del formulario aquí -->
+
+
+
+    <h2>¡Contáctame!</h2>
+
+<form onsubmit="enviarFormulario(event)">
+    
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto">
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+
+
+        <button type="submit">Enviar</button>
+    </form>
+ </section>
+ </main>
+
+
+<p id="mensaje-enviado" style="display: none;">¡Gracias por escribirme!</p>
+
+ <footer>
+ <p>Derechos de autor &copy; 2024 Mi Empresa--- LUIS GERARDO🖥💻</p>
+ </footer
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
